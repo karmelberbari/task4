@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 50%;
+    
+}
+.logo{
+    float: left;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.list a {
+    color: white;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.portfolio {
+    background-color: lavender;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio-items {
+    display: flex;
+  flex-direction: column;
+}
+.portfolio-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px; /* Negative margin for spacing */
+}
+
+.portfolio-item {
+    flex: 0 0 calc(33.33% - 30px); /* Adjusted width and spacing */
+    margin: 0 15px; /* Add spacing between items */
+    box-sizing: border-box;}
+
+.portfolio img {
+    width: 100%;
+    display: block;
+}
